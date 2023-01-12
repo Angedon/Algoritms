@@ -1,9 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-
-
-
 struct Graph
 {
 	struct Graph **kids;
@@ -62,7 +59,7 @@ int main()
 	{
 		scanf("%d", &g[i].value);
 	}
-	printf("%d", findTreasure(g[0], p, 0));//звено графа, амулет, текущее золото
+	printf("%d", findTreasure(g[0], p, 0));//Г§ГўГҐГ­Г® ГЈГ°Г ГґГ , Г Г¬ГіГ«ГҐГІ, ГІГҐГЄГіГ№ГҐГҐ Г§Г®Г«Г®ГІГ®
 	for(int i = 0; i < n; i++)
     {
         free(g[i].kids);
