@@ -1,2 +1,2 @@
 # Algoritms
-Different C++ algoritms which i did during studying 
+A few C++ algorithms which i did during studying.   
